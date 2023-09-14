@@ -1,0 +1,88 @@
+.activityForm {
+    font-family: "Arial", sans-serif; 
+    max-width: 60%;
+    background-color: #20a0b1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 5px auto;
+    border-radius: 5px;
+    padding: 1em;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .activityForm h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+
+  .nameInput,
+  .durationInput,
+  .dificultySelect,
+  .seasonSelect,
+  .countrySelect {
+    font-family: "Arial", sans-serif;
+    color: #333;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .nameInput p,
+  .durationInput p {
+    color: red;
+    text-align: center;
+  }
+  
+ 
+  .nameInput input,
+  .durationInput input,
+  .dificultySelect select,
+  .seasonSelect select,
+  .countrySelect select {
+    font-family: "Arial", sans-serif; 
+    font-size: 1rem;
+    width: 100%;
+    background-color: #fff;
+    color: #333;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 0.2rem;
+  }
+  
+
+  .countryButtons,
+  .submit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .countryButtons button,
+  .submit button {
+    font-family: "Arial", sans-serif; 
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    margin-top: 0.5rem;
+  }
+  
+  .countryButtons button:hover,
+  .submit button:hover {
+    background-color: #20a0b1;
+  }
+  

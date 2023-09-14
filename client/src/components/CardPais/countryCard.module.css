@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinea a la izquierda */
+  justify-content: center;
+  max-width: 10rem; /* Reduce el ancho */
+  min-height: 12rem; /* Reduce la altura */
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #20a0b1;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  font-family: "Arial", sans-serif;
+  font-size: 1.2rem; /* Reduce el tamaño de la fuente */
+  margin: 0.5em 0;
+  color: #333;
+  text-align: center;
+}
+
+.nameLink {
+  text-decoration: none;
+}
+
+.cimage {
+  margin: 1rem 0;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+

@@ -1,0 +1,48 @@
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.error {
+  font-family: "Arial", sans-serif; 
+  font-size: 2rem;
+  text-align: center;
+  color: #ff5555; 
+  margin: 1rem 0; 
+}
+
+.paisInfo {
+  color: #fff; 
+  background-color: #20a0b1; 
+  border-radius: 1rem; 
+  font-family: "Arial", sans-serif;
+  font-size: 1.2rem; 
+  padding: 1rem; 
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+  margin: 1rem;
+}
+
+
+.bandera {
+  margin-top: 2rem; 
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto; 
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4); 
+}
+
+@media (min-width: 905px){
+    .details{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        justify-items: center;
+        flex-direction: row;
+    }
+} 

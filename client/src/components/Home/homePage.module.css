@@ -1,0 +1,97 @@
+.container {
+    background-position: center center;
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .loading {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 20px;
+    margin-top: 5px;
+    color: #333; 
+  }
+  
+  .pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pageBtn {
+    width: 55px;
+    font-family: monospace;
+    text-align: center;
+    align-items: center;
+    margin: 2px;
+    padding: 3px;
+    border-radius: 50px;
+    border: 0;
+    box-shadow: 1.5px -1px #3498db; 
+    background-color: #3498db;
+    color: #fff; 
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  }
+  
+  .pageBtn:hover {
+    cursor: pointer;
+    background-color: #207ab3; 
+    box-shadow: 2px -1px #207ab3; 
+    transform: scale(1.05); 
+  }
+  
+  .selectedPageButton {
+    background-color: rgba(52, 152, 219, 0.5); 
+    font-family: monospace;
+    font-size: large;
+    color: #333; 
+    width: 55px;
+    text-align: center;
+    align-items: center;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 50px;
+    border: 0;
+    box-shadow: 2px -1px #333; 
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .selectedPageButton:hover {
+    background-color: rgba(32, 122, 179, 0.5); 
+    box-shadow: 2px -1px #207ab3; 
+    transform: scale(1.05); 
+  }
+  
+  
+
+@media (min-width:600px){
+    .container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (min-width:860px){
+    .container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width:1250px){
+    .container{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+@media (min-width:1450px){
+    .container{
+        grid-template-columns: repeat(5,1fr);
+    }
+}

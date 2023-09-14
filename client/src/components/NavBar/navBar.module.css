@@ -1,0 +1,60 @@
+.navBar {
+    z-index: 999;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #20a0b1;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .orders,
+  .filter {
+    display: flex;
+    align-items: center;
+    border: 10px;
+  }
+  
+  .orders select,
+  .filter select,
+  .navBarbutton {
+    font-family: "Arial", sans-serif;
+    font-size: 1rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 15px;
+    border: 0;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .navBarbutton:hover {
+    background-color: #1a7a8b;
+  }
+  
+  /* Consulta de medios para dispositivos móviles */
+  @media screen and (max-width: 768px) {
+    .navBar {
+      flex-direction: column;
+      text-align: center;
+      padding: 1rem;
+    }
+  
+    .navBar > div {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  
+    .orders,
+    .filter {
+      margin-top: 1rem;
+    }
+  
+    .orders select,
+    .filter select,
+    .navBarbutton {
+      width: 100%;
+    }
+  }
+  
