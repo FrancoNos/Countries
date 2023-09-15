@@ -20,9 +20,9 @@ function App() {
 
   const dispatch = useDispatch()
 
-  const URL = 'http://localhost:3001/countries'
+  const URL = 'https://countries-production-b480.up.railway.app/countries'
 
-  const URLA = 'http://localhost:3001/activities'
+  const URLA = 'https://countries-production-b480.up.railway.app/activities'
 
   useEffect(()=>{
     const getallCountriesAndActivities= async()=>{
