@@ -11,7 +11,7 @@ const DetailPage = ()=>{
 
     const {id} = useParams()
 
-    const URL = 'http://localhost:3001/countries'
+    const URL = 'https://countries-production-b480.up.railway.app/countries'
     
     const dispatch = useDispatch()
 

@@ -7,7 +7,7 @@ import style from "./activityForm.module.css";
 
 const ActivityForm = () => {
   const navigate = useNavigate();
-  const URL = "http://localhost:3001/activities";
+  const URL = "https://countries-production-b480.up.railway.app/activities";
   const dispatch = useDispatch();
   const countriesForActivityOnly = useSelector(
     (state) => state.country.countriesForActivityOnly

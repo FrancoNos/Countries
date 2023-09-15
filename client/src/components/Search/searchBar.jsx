@@ -7,7 +7,7 @@ import { getCountryByName } from '../redux/countrySlice'
 import style from './searchBar.module.css'
 
 const SearchBar = ()=>{
-    const URL = 'http://localhost:3001/countries'
+    const URL = 'https://countries-production-b480.up.railway.app/countries'
 
     const dispatch = useDispatch();
 
